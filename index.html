@@ -4,12 +4,117 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <section id="site-hero" class="site-hero">
+    <header class="site-header">
+      <div class="container">
+        <div class="row between align-center">
+          <div class="site-header__logos row align-center">
+            <a class="site-header__link" href="#">
+              <img class="site-header__logo" src="img/logo.svg" alt="logo">
+            </a>
+            <nav class="site-header__nav nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">about</a></li>
+              </ul>
+            </nav>
+          </div>
+          <a class="site-header__btn" href="#">contact us</a>
+          <div class="site-header__icon">
+            <button class="icon__btn"><i class='bx bx-menu'></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="site-hero__sec">
+        <div class="container">
+          <div class="site-hero__des">
+            <h2 class="site-hero__title">About</h2>
+            <h2 class="site-hero__text"><span class="site-hero__line"></span> We help companies build dynamic teams made up of top global talent. Using our network of passionate professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the best products and experiences. We’ll bring those teams to you.</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <section class="directors">
+    <div class="container">
+      <h2 class="directors__title">Meet the directors</h2>
+      <ul class="directors__list row">
+        <li class="directors__item">
+          <img class="directors__img" src="img/img-1.png" alt="img" width="96" height="96">
+          <p class="directors__text-green">Nikita Marks</p>
+          <p class="directors__text">Founder & CEO</p>
+          <button class="directors__btn">+</button>
+        </li>
+        <li class="directors__item">
+          <img class="directors__img" src="img/img-2.png" alt="img" width="96" height="96">
+          <p class="directors__text-green">Cristian Duncan</p>
+          <p class="directors__text">Co-founder & COO</p>
+          <button class="directors__btn">+</button>
+        </li>
+        <li class="directors__item">
+          <img class="directors__img" src="img/img-3.png" alt="img" width="96" height="96">
+          <p class="directors__text-green">Cruz Hamer</p>
+          <p class="directors__text">Co-founder & CTO</p>
+          <button class="directors__btn">+</button>
+        </li>
+        <li class="directors__item">
+          <img class="directors__img" src="img/img-4.png" alt="img" width="96" height="96">
+          <p class="directors__text-green">Drake Heatons</p>
+          <p class="directors__text">Business Development Lead</p>
+          <button class="directors__btn">+</button>
+        </li>
+        <li class="directors__item">
+          <img class="directors__img" src="img/img-5.png" alt="img" width="96" height="96">
+          <p class="directors__text-green">Griffin Wise</p>
+          <p class="directors__text">Lead Marketing</p>
+          <button class="directors__btn">+</button>
+        </li>
+        <li class="directors__item">
+          <p class="directors__text-green">Aden Allan</p>
+          <p class="directors__text subtext">“Empowered teams create truly amazing products. Set the north star and let them follow it.”</p>
+          <ul class="directors-inner__list">
+            <li class="inner__item"><i class='bx bxl-twitter' ></i></li>
+            <li class="inner__item"><i class='bx bxl-linkedin-square' ></i></li>
+          </ul>
+          <button class="directors__btn btn-green">+</button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="client">
+    <div class="container">
+      <h2 class="client__title">Some of our clints</h2>
+      <ul class="client__list">
+        <li class="client__item"><img src="img/client-1.png" alt="client" width="165" height="28"></li>
+        <li class="client__item"><img src="img/client-2.png" alt="client" width="184" height="23"></li>
+        <li class="client__item"><img src="img/client-3.png" alt="client" width="180" height="28"></li>
+        <li class="client__item"><img src="img/client-4.png" alt="client" width="165" height="28"></li>
+        <li class="client__item"><img src="img/client-5.png" alt="client" width="98" height="45"></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="contact">
+    <div class="container">
+      <div class="contact__sec">
+
+        <h2 class="contact__title">Ready to get started?</h2>
+        <a class="site-header__btn contact-btn" href="#">contact us</a>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
